@@ -32,22 +32,22 @@ const q0 = {
 
 const q1 = {
     numQuestao   : 1,
-    pergunta     : "Qual a altura da rede de vôlei nos jogos masculino e feminino?",
-    alternativaA : "2,4m para ambos;",
-    alternativaB : "2,5m e 2,0m",
-    alternativaC : "2,43m e 2,24m",
-    alternativaD : "2,45m e 2,15m",
-    correta      : "2,43m e 2,24m",
+    pergunta     : "Quem não faz parte do BTS ?",
+    alternativaA : "Jeon Jung-kook",
+    alternativaB : "Jimin",
+    alternativaC : "Seo-joon",
+    alternativaD : "RM",
+    correta      : "Seo-joon",
 }
 
 const q2 = {
     numQuestao   : 2,
-    pergunta     : "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
-    alternativaA : "Caipora",
-    alternativaB : "Saci",
-    alternativaC : "Lobisomem",
-    alternativaD : "Boitatá",
-    correta      : "Caipora",
+    pergunta     : "De onde veio a pronúncia 'Dorama' ?",
+    alternativaA : "Japão",
+    alternativaB : "América",
+    alternativaC : "Coreia do Sul",
+    alternativaD : "Brasil",
+    correta      : "Japão",
 }
 
 const q3 = {
@@ -62,70 +62,72 @@ const q3 = {
 
 const q4 = {
     numQuestao   : 4,
-    pergunta     : "Açai ou sorvete?",
-    alternativaA : "Açaí",
-    alternativaB : "Sorvete",
-    alternativaC : "gelado",
-    alternativaD : "quente",
+    pergunta     : "Qual feitiço mata instantaneamente em Harry Potter ?",
+    alternativaA : "Avada Kedavra",
+    alternativaB : "Expelliarmus",
+    alternativaC : "Estupefaça",
+    alternativaD : "Expecto Patronum",
+    correta      : "Avada Kedavra",
 }
 
 const q5 = {
     numQuestao   : 5,
-    pergunta     : "Dia ou noite?",
-    alternativaA : "Dia",
-    alternativaB : "Noite",
-    alternativaC : "Madrugada",
-    alternativaD : "Meio termo",
+    pergunta     : "Que dia se iniciou uma nova história ?",
+    alternativaA : "20 de Março",
+    alternativaB : "01 de Agosto",
+    alternativaC : "24 de Janeiro",
+    alternativaD : "24 de Março",
+    correta      : "24 de Janeiro",
 }
 
 const q6 = {
     numQuestao : 6,
-    pergunta : "Que filme tem ursos",
-    alternativaA : "Os irmãos ursos",
-    alternativaB : "O bicho vai pegar",
-    alternativaC : "Os sem florestas",
-    alternativaD : "Toy Store 3",
-    correta : "Os irmãos ursos",
+    pergunta : "Que música lembra essa história no inicio ?",
+    alternativaA : "Eu te amo (Bryan Behr)",
+    alternativaB : "Photograph (Ed Sheeran)",
+    alternativaC : "Velha infância (Tribalistas)",
+    alternativaD : "Era uma vez (Kell Smith)",
+    correta : "Eu te amo (Bryan Behr)",
 }
 
 const q7 = {
     numQuestao : 7,
-    pergunta : "Qual o maior animal terrestre?",
-    alternativaA : "Baleia Azul",
-    alternativaB : "Dinossauro",
-    alternativaC : "Elefante Africano",
-    alternativaD : "Tubarão Branco",
-    correta : "Elefante Africano",
+    pergunta : "O que está achando do Quiz ? Pode responder mais uma pergunta ?",
+    alternativaA : "Estou amando, posso sim",
+    alternativaB : "Claro",
+    alternativaC : "Achei legal, posso sim",
+    alternativaD : "Melhor Quiz, manda mais",
+    correta : "Melhor Quiz, manda mais",
 }
 
 const q8 = {
     numQuestao : 8,
-    pergunta : "Baby do baby do biruleibe leibe é um...",
-    alternativaA : "Meme",
-    alternativaB : "Motivo de raiva",
-    alternativaC : "Texto",
-    alternativaD : "História",
-    correta : "Meme",
+    pergunta : "O pedido de namoro está demorando?",
+    alternativaA : "Simmmmmmmm",
+    alternativaB : "Demais, faz séculos que espero",
+    alternativaC : "Tá não",
+    alternativaD : "Um pouco",
+    correta : "Demais, faz séculos que espero",
 }
 
 const q9 = {
     numQuestao : 9,
-    pergunta : "Dias chuvosos ou quentes?",
-    alternativaA : "Chuvosos",
-    alternativaB : "Quentes",
-    alternativaC : "Úmidos",
-    alternativaD : "Secos",
-    correta : "Chuvosos",
+    pergunta : "A partir da sua satisfação do quiz kkkkk vamos pra ultima pergunta antes que eu chore tudo bem?",
+    alternativaA : "kkkkkkkkk",
+    alternativaB : "Tudo bem, manda ai",
+    alternativaC : "Oh meu deus kkkk tá bom",
+    alternativaD : "Quê isso meu fi, quê isso",
+    correta : "Oh meu deus kkkk tá bom",
 }
 
 const q10 = {
     numQuestao : 10,
-    pergunta : "O sol é...",
-    alternativaA : "Quente",
-    alternativaB : "Frio",
-    alternativaC : "Morno",
-    alternativaD : "Vermelho",
-    correta : "Quente",
+    pergunta : "Laisy Maria Ferreira Arruda, você aceita namorar com esse atrapalhado ??",
+    alternativaA : "Sério??",
+    alternativaB : "Tô lendo certo?? kkkkk",
+    alternativaC : "Aceitooooooooo",
+    alternativaD : "Não, esperar mais um pouco",
+    correta : "Aceitooooooooo",
 }
 
 
@@ -226,15 +228,14 @@ function verificarSeAcertou(nQuestao, resposta) {
 }
 
 function fimDoJogo() {
-    instrucoes.textContent = "Parabéns por responder ao quiz 😌"
+    instrucoes.textContent = "Boa escolha ná ultima resposta 😌"
     numQuestao.textContent = ""
 
     let pont = ''
     pontos == 0 ? pont = 'ponto' : pont = 'pontos'
+    pergunta.textContent   = "EU TE AMO FORMIGUINHA ❤️ "
 
-    pergunta.textContent   = "Você conseguiu " + pontos + " " + pont
-
-    aviso.textContent = "Você conseguiu " + pontos + " " + pont
+    aviso.textContent = "EU TE AMO FORMIGUINHA ❤️ "
 
     a.textContent = ""
     b.textContent = ""
@@ -250,5 +251,5 @@ function fimDoJogo() {
     setTimeout(function() {
         pontos = 0 // zerar placar
         location.reload();
-    }, 6000)
+    }, 15000)
 }

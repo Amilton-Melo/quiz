@@ -13,6 +13,7 @@
     --resposta-hover: #6418d6;
     --bg-instrucoes: #06085d;
     --shadow: #1899c1;
+    --color-mensagem-final: #184fdc;
 }
 
 body{
@@ -108,7 +109,7 @@ h1 {
 }
 
 #aviso {
-    color: var(--bg-nQuestao);
+    color: var(--color-mensagem-final);
 }
 
 /* ANIMACAO */
